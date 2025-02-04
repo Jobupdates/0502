@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chief Officer Job Openings</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to bottom, #0f0f0f, #1a1a1a);
+            color: #fff;
+        }
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            background: linear-gradient(to right, #00264d, #004080);
+            color: white;
+            padding: 40px;
+            border-radius: 0 0 20px 20px;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+            text-align: center;
+            position: relative;
+        }
+        header img {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            height: 100px;
+        }
+        header h1 {
+            font-size: 3rem;
+            margin: 0;
+            letter-spacing: 2px;
+        }
+        header .date {
+            font-size: 1.2rem;
+            margin-top: 15px;
+        }
+        .container {
+            max-width: 1400px;
+            margin: 50px auto;
+            padding: 30px;
+            border-radius: 15px;
+            background: rgba(255, 255, 255, 0.05);
+            box-shadow: 0 5px 30px rgba(0, 0, 0, 0.3);
+        }
+        .job {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border: 1px solid #555;
+            border-radius: 15px;
+            padding: 30px;
+            margin: 30px 0;
+            background: linear-gradient(to right, #2a2a2a, #333);
+            transition: transform 0.3s, box-shadow 0.3s;
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+        }
+        .job:hover {
+            transform: translateY(-7px);
+            box-shadow: 0 7px 20px rgba(0, 0, 0, 0.4);
+        }
+        .job-details {
+            flex: 3;
+        }
+        .job-details strong {
+            font-size: 1.8rem;
+            color: #00ffcc;
+        }
+        .job-details p {
+            font-size: 1.4rem;
+            margin: 10px 0;
+        }
+        .share-cv {
+            flex: 1;
+            text-align: right;
+        }
+        .share-cv button {
+            border: none;
+            border-radius: 10px;
+            padding: 15px 20px;
+            font-size: 1.2rem;
+            cursor: pointer;
+            margin-left: 15px;
+            margin-bottom: 10px;
+            transition: background 0.3s, transform 0.3s;
+        }
+        .share-cv .email {
+            background: #ffd700; /* Yellow */
+            color: #000;
+        }
+        .share-cv .email:hover {
+            transform: scale(1.1);
+            background: #ffcc00;
+        }
+        .share-cv .whatsapp {
+            background: #25d366; /* Green */
+            color: #fff;
+        }
+        .share-cv .whatsapp:hover {
+            transform: scale(1.1);
+            background: #20b954;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            padding: 30px;
+            background: #001a33;
+            color: white;
+            border-radius: 20px 20px 0 0;
+            box-shadow: 0 -5px 10px rgba(0, 0, 0, 0.3);
+        }
+        .footer p {
+            font-size: 1.3rem;
+            margin: 0;
+        }
+        .footer a {
+            color: #00ffcc;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.2rem;
+            margin: 0 15px;
+        }
+        .footer a:hover {
+            color: white;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="Companylogo.jpeg" alt="Company Logo">
+        <h1>Chief Officer Job Openings</h1>
+        <p class="date">Updated: 05/02/2025</p>
+    </header>
+    <div class="container">
+<!-- Job 1 -->
+<div class="job">
+    <div class="job-details">
+        <strong>Company: V.Ships</strong>
+        <p>Position: Chief Mate</p>
+        <p>Vessel Type: AHTS, PSV, Utility, Crew Boat</p>
+        <p>Experience:</p>
+        <ul>
+            <li>24 months in rank on offshore fleet</li>
+            <li>6 months on applied vessel type</li>
+            <li>Higher COC required</li>
+            <li>ADNOC, ARAMCO, Qatar Energy approval is an advantage</li>
+        </ul>
+    </div>
+    <div class="share-cv">
+        <button class="email" onclick="location.href='mailto:kateryna.ivanko@vships.com'">Apply via Email</button>
+    </div>
+</div>
+
+<!-- Job 2 -->
+<div class="job">
+    <div class="job-details">
+        <strong>Company: Anglo Eastern</strong>
+        <p>Position: Chief Officer</p>
+        <p>Vessel Type: VLCC</p>
+        <p>Experience:</p>
+        <ul>
+            <li>MI (Front) - Apr '25 - 2.5+ years in rank in tankers only</li>
+        </ul>
+    </div>
+    <div class="share-cv">
+        <button class="email" onclick="location.href='mailto:sahijk@angloeastern.com'">Apply via Email</button>
+        <button class="whatsapp" onclick="location.href='https://wa.me/917208068273?text=I am interested in applying for the position of Chief Officer on a VLCC.'">Apply via WhatsApp</button>
+    </div>
+</div>
+
+<!-- Job 3 -->
+<div class="job">
+    <div class="job-details">
+        <strong>Company: Columbia Aurus Ship Management</strong>
+        <p>Position: Chief Mate SDPO</p>
+        <p>Vessel Type: Heavy Lift Vessel</p>
+        <p>Experience: Minimum 2 years in rank on the same type of vessel</p>
+        <p>GRT/NRT: 50662/15198</p>
+        <p>Joining Location: China</p>
+    </div>
+    <div class="share-cv">
+        <button class="email" onclick="location.href='mailto:saheli@columbiaaurus.com'">Apply via Email</button>
+        <button class="whatsapp" onclick="location.href='https://wa.me/917439227596?text=I am interested in applying for the position of Chief Mate SDPO on a Heavy Lift Vessel.'">Apply via WhatsApp</button>
+    </div>
+</div>
+
+<!-- Job 4 -->
+<div class="job">
+    <div class="job-details">
+        <strong>Company: NAZ Maritime</strong>
+        <p>RPSL No.: RPSL/MUM/130</p>
+        <p>Position: Chief Officer (C/O)</p>
+        <p>Vessel Type: Handymax Bulk Carrier</p>
+        <p>Experience Required: Minimum 4-8 months in rank</p>
+        <p>Additional Requirements:</p>
+        <ul>
+            <li>Only White Listed COC accepted</li>
+            <li>Experience on type-specific vessel required</li>
+            <li>Man B&W MC engine experience mandatory for all engineers</li>
+        </ul>
+        <p>Joining Date: Mid-February 2025</p>
+    </div>
+    <div class="share-cv">
+        <button class="email" onclick="location.href='mailto:sourcing@nazmaritime.com'">Apply via Email</button>
+        <button class="whatsapp" onclick="location.href='https://wa.me/918655480699?text=I am interested in applying for the position of Chief Officer on a Handymax Bulk Carrier.'">Apply via WhatsApp</button>
+    </div>
+</div>
+
+<!-- Job 5 -->
+<div class="job">
+    <div class="job-details">
+        <strong>Company: Nimbus Marine Group</strong>
+        <p>Position: Chief Officer DPO (CO DPO)</p>
+        <p>Vessel Type: DSV DP2 (SAT DIVE)</p>
+        <p>Location: Mumbai High</p>
+        <p>Nationality: Indian</p>
+        <p>Experience Required:</p>
+        <ul>
+            <li>Minimum 180 days rank experience on DSV DP2</li>
+            <li>Experience must be recorded in DP Log Book</li>
+            <li>Valid PCC (Police Clearance Certificate)</li>
+            <li>Valid HUET (Helicopter Underwater Escape Training)</li>
+        </ul>
+        <p>Contract Duration: 2 months</p>
+        <p>Joining Date: ASAP</p>
+    </div>
+    <div class="share-cv">
+        <button class="email" onclick="location.href='mailto:crew@nimbusmarinegroup.com'">Apply via Email</button>
+        <button class="whatsapp" onclick="location.href='https://wa.me/919136947965?text=I am interested in applying for the position of Chief Officer DPO on a DSV DP2 vessel.'">Apply via WhatsApp</button>
+    </div>
+</div>
+
+<!-- Job 6 -->
+<div class="job">
+    <div class="job-details">
+        <strong>Company: AG Maritime Pvt Ltd</strong>
+        <p>RPSL No.: RPSL-MUM-308 (Valid till 09.07.2029)</p>
+        <p>Position: Chief Officer</p>
+        <p>Vessel Type: Cape Size Bulk Carrier</p>
+        <p>Experience Required:</p>
+        <ul>
+            <li>COC from India, UK, New Zealand, Australia, or Singapore</li>
+            <li>Rank experience mandatory</li>
+        </ul>
+    </div>
+    <div class="share-cv">
+        <button class="email" onclick="location.href='mailto:renu.rebecca@ag-maritime.com'">Apply via Email</button>
+        <button class="whatsapp" onclick="location.href='https://wa.me/919321276984?text=I am interested in applying for the position of Chief Officer on a Cape Size Bulk Carrier.'">Apply via WhatsApp</button>
+    </div>
+</div>
+
+<!-- Job 7 -->
+<div class="job">
+    <div class="job-details">
+        <strong>Company: KIWA Shipping LLP</strong>
+        <p>RPSL No.: RPSL-MUM-162260</p>
+        <p>Position: Chief Officer (CO)</p>
+        <p>Vessel Type: MR Tanker</p>
+        <p>Experience Required: Minimum 12 months in rank on a tanker</p>
+        <p>COC Requirement: Only White List COC</p>
+    </div>
+    <div class="share-cv">
+        <button class="email" onclick="location.href='mailto:recruitment@kiwashipping.com'">Apply via Email</button>
+        <button class="whatsapp" onclick="location.href='https://wa.me/918544883611?text=I am interested in applying for the position of Chief Officer on an MR Tanker.'">Apply via WhatsApp </button>
+        <button class="whatsapp" onclick="location.href='https://wa.me/917347291211?text=I am interested in applying for the position of Chief Officer on an MR Tanker.'">Apply via WhatsApp </button>
+    </div>
+</div>
+<!-- Job 8 -->
+<div class="job">
+    <div class="job-details">
+        <strong>Company: Nimbus Marine Group</strong>
+        <p>Position: Chief Officer (CO)</p>
+        <p>Vessel Type: OSV (Non-DP)</p>
+        <p>Location: KSA (Saudi Arabia)</p>
+        <p>Experience Required:</p>
+        <ul>
+            <li>720+ working days experience</li>
+            <li>ARAMCO approval preferred</li>
+            <li>OSV/PSV experience mandatory</li>
+        </ul>
+        <p>Contract Duration: 4 months</p>
+        <p>Joining Date: ASAP</p>
+    </div>
+    <div class="share-cv">
+        <button class="email" onclick="location.href='mailto:crew@nimbusmarinegroup.com'">Apply via Email</button>
+        <button class="whatsapp" onclick="location.href='https://wa.me/919136947965?text=I am interested in applying for the position of Chief Officer on an OSV (Non-DP) vessel.'">Apply via WhatsApp</button>
+    </div>
+</div>
+
+<!-- Job 9 -->
+<div class="job">
+    <div class="job-details">
+        <strong>Company: Blue Fortune Ship Management</strong>
+        <p>RPSL No.: MUM 162086</p>
+        <p>Position: Chief Officer</p>
+        <p>Vessel Type: Oil/Chemical Tanker</p>
+        <p>Experience Required: Relevant experience required</p>
+        <p>Joining Date: Soon</p>
+    </div>
+    <div class="share-cv">
+        <button class="website" onclick="location.href='https://bluefortuneship.com/contact/'">Apply via Website</button>
+        <button class="whatsapp" onclick="location.href='https://wa.me/919867566034?text=I am interested in applying for the position of Chief Officer on an Oil/Chemical Tanker.'">Apply via WhatsApp </button>
+        <button class="channel" onclick="location.href='https://whatsapp.com/channel/0029VaHkkb4A2pL4suSiGb1C'">Join WhatsApp Channel</button>
+    </div>
+</div>
+
+<!-- Job 10 -->
+<div class="job">
+    <div class="job-details">
+        <strong>Company: Columbia Aurus Ship Management</strong>
+        <p>RPSL No.: RPSL-MUM-373</p>
+        <p>Position: Chief Mate DPO</p>
+        <p>Vessel Type: PSV DP-2</p>
+        <p>Experience Required: Must have NOC Charter approval</p>
+        <p>Joining Date: Immediate</p>
+    </div>
+    <div class="share-cv">
+        <button class="email" onclick="location.href='mailto:saibala@columbiaaurus.com'">Apply via Email</button>
+        <button class="whatsapp" onclick="location.href='https://wa.me/918500635319?text=I am interested in applying for the position of Chief Mate DPO on a PSV DP-2 vessel.'">Apply via WhatsApp</button>
+    </div>
+</div>
+
+<!-- Job 11 -->
+<div class="job">
+    <div class="job-details">
+        <strong>Company: Marshal Ship Management Pvt Ltd</strong>
+        <p>Position: Chief Officer (C/O)</p>
+        <p>Vessel Type: Container Vessel</p>
+        <p>Experience Required: Minimum 8 months rank experience</p>
+        <p>Joining Date: 12th February 2025</p>
+        <p>Nationality Required: Indian Nationals only</p>
+    </div>
+    <div class="share-cv">
+        <button class="email" onclick="location.href='mailto:reethu@marshal-shipmanagement.com'">Apply via Email</button>
+        <button class="whatsapp" onclick="location.href='https://wa.me/919136498615?text=I am interested in applying for the position of Chief Officer on a Container Vessel.'">Apply via WhatsApp</button>
+    </div>
+</div>
+
+
+
+
+
+
+    </div>
+    <div class="footer">
+        <p>© 2024 Merchant Navy Decoded Jobs | Contact us at 
+            <a href="https://whatsapp.com/channel/0029VaeWFWW1SWsrJDXXxs06">Whatsapp Channel</a>
+        </p>
+    </div>
+</body>
+</html>
